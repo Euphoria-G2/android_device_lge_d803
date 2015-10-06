@@ -16,9 +16,8 @@
 
 include device/lge/g2-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := cyanogenmod_d803_defconfig
+TARGET_KERNEL_CONFIG := d803_defconfig
 
 TARGET_OTA_ASSERT_DEVICE := d803,g2,galbi,d802
 
 G2_DTS_TARGET := msm8974-g2-ca
-
